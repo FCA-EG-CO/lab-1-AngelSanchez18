@@ -20,12 +20,8 @@ int main() {
   cout << endl
        << "Los números son " << firstNumber << " y " << secondNumber << endl;
 
-  // Ahora intercambiaremos los valores.
-  firstNumber = secondNumber;
-  secondNumber = firstNumber;
-
   // Salida de los valores después del intercambio.
-  cout << "Ahora, los números son " << firstNumber << " y " << secondNumber
+  cout << "Ahora, los números son " << secondNumber << " y " << firstNumber
        << endl;
   return 0;
 }
